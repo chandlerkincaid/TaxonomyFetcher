@@ -5,9 +5,10 @@ import gc
 
 
 # DO NOT USE THIS TO SPAM THE NCBI SITE!!!
-# NCBI is very nice with their API support and requests you make no more than
+# NCBI is very nice with their API support and asks you make no more than
 # 3 requests a second and 200 requests in a session. If you have many requests
-# please run them during off times (weekend, 3AM, etc)
+# please run them during off times (weekend, 3AM, etc). If you don't follow the
+# rules you might get an IP Ban.
 def spliterFunction(x):
     lineArray = x.split('\n')
     if len(lineArray) > 1:
